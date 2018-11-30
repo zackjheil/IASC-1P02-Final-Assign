@@ -1,9 +1,14 @@
 .Wrapper{
   background-color: #444444;
-  width: 1440px;
+  width: 1940px;
   height: 1920px;
 }
 
+.TitleBar{
+  padding: 25px;
+  background-color: #F0DEDE;
+  width: 1930px;
+}
 
 .dropbtn {
     background-color: #3498DB;
@@ -19,7 +24,7 @@
 }
 
 .dropdown {
-    position:relative;
+    position:fixed;
     display: inline-block;
     left: 720px;
 
@@ -45,3 +50,31 @@
 .dropdown a:hover {background-color: #ddd;}
 
 .show {display: block;}
+
+.ReviewText{
+  font-size: 30px;
+  color: #EE8989;
+}
+
+#button{
+  position: absolute;
+  top: 690px;
+  left: 135px;
+}
+*{
+  box-sizing:border-box;
+}
+.InfoMatic{
+  position: absolute;
+  left: 675px;
+  font-size: 30px;
+  position: absolute;
+  font-family: cursive,
+  color: black;
+  top: -10px;
+}
+.Thanks{
+  font-size: 25px;
+  line-height: 150%;
+  color: #EE8989
+}
