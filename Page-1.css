@@ -1,0 +1,80 @@
+.Wrapper{
+  background-color: #444444;
+  width: 1440px;
+  height: 1920px;
+
+}
+.ContactMe{
+  color: #EE8989;
+  position: absolute;
+  top: 1390px;
+}
+
+.dropbtn {
+    background-color: #3498DB;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropbtn:hover, .dropbtn:focus {
+    background-color: #2980B9;
+}
+
+.dropdown {
+    position: fixed;
+    display: inline-block;
+    left: 720px;
+
+}
+
+.dropdown-content {
+    display: none;
+    position: fixed;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown a:hover {background-color: #ddd;}
+
+.show {display: block;}
+
+.Linky{
+  font-size: 25px;
+}
+
+.ContentAware{
+  width: 1450px;
+  font-size: 30px;
+  color: #EE8989;
+  line-height: 150%;
+}
+
+* {box-sizing: border-box;}
+
+.TitleBar{
+  padding: 25px;
+  background-color: #F0DEDE;
+  width: 1450px;
+}
+.InfoMatic{
+  position: absolute;
+  left: 675px;
+  font-size: 30px;
+  position: absolute;
+  top: 5px;
+  font-family: cursive,
+  color: black;
+}

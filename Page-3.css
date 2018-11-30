@@ -1,11 +1,14 @@
+.Wrapper{
+  background-color: #444444;
+  width: 1440px;
+  height: 1920px;
+}
 #Heady1{
 position: relative;
-left:590px;
-
+left:650px;
+margin: 0 auto;
+color: #EE8989;
 }
-
-
-
 
 .dropbtn {
     background-color: #3498DB;
@@ -23,7 +26,7 @@ left:590px;
 .dropdown {
     position: relative;
     display: inline-block;
-    left: 650px;
+    left: 720px;
 
 }
 
@@ -47,3 +50,48 @@ left:590px;
 .dropdown a:hover {background-color: #ddd;}
 
 .show {display: block;}
+
+.PhotoLib{display:none;}
+
+.Gallery-Slides{
+  position: absolute;
+  left:500px;
+  top:150px;
+
+}
+
+.Gallery-Header{
+  position: absolute;
+  left:695px;
+  top: 100px;
+  color: #EE8989;
+}
+
+
+.Notes{
+  position: absolute;
+  left: 680px;
+  top:550px;
+  margin: 0 auto;
+  font-size: 25px;
+}
+
+.Content{
+  position: absolute;
+  left: 450px;
+  margin: 0 auto;
+  top: 600px;
+  font-size: 25px;
+  font-style: normal;
+  width: 700px;
+  height: 50px;
+  color:#EE8989;
+  padding: 3px;
+  text-align: center;
+}
+
+
+
+*{
+  box-sizing:border-box;
+}
