@@ -1,3 +1,9 @@
+.Wrapper{
+  background-color: #444444;
+  width: 1440px;
+  height: 1920px;
+}
+
 
 .dropbtn {
     background-color: #3498DB;
