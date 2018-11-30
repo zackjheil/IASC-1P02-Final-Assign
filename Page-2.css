@@ -97,3 +97,11 @@
   color: black;
   font-size: 45px;
 }
+
+.FooterBar{
+  padding: 25px;
+  background-color: #F0DEDE;
+  width: 1930px;
+  top: 1950px;
+  position: absolute;
+}
