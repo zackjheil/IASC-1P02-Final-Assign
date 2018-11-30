@@ -78,3 +78,14 @@
   font-family: cursive,
   color: black;
 }
+
+a:hover{
+  color:#837474;
+}
+
+a:visited{
+  color:#FF0000;
+}
+a:active{
+  color: #00EFFF;
+}

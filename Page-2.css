@@ -76,5 +76,24 @@
 .Thanks{
   font-size: 25px;
   line-height: 150%;
-  color: #EE8989
+  color: #EE8989;
+  position:absolute;
+  top: 1540px;
+}
+
+#txt{
+  color: white;
+  font-size: 175px;
+  position: relative;
+  top:500px;
+  left: 470px;
+
+}
+#TimeyWimey{
+  position: absolute;
+  top:899px;
+  left:500px;
+  z-index: 5;
+  color: black;
+  font-size: 45px;
 }
