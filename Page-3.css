@@ -1,11 +1,15 @@
-#Heady1{
-position: relative;
-left:590px;
-
+.Wrapper{
+  background-color: #444444;
+  width: 1940px;
+  height: 1920px;
+  margin: 0 auto;
 }
 
-
-
+.TitleBar{
+  padding: 25px;
+  background-color: #F0DEDE;
+  width: 1930px;
+}
 
 .dropbtn {
     background-color: #3498DB;
@@ -18,18 +22,20 @@ left:590px;
 
 .dropbtn:hover, .dropbtn:focus {
     background-color: #2980B9;
+    z-index: 1;
 }
 
 .dropdown {
-    position: relative;
+    position: fixed;
     display: inline-block;
-    left: 650px;
+    left: 1070px;
+    z-index: 1;
 
 }
 
 .dropdown-content {
     display: none;
-    position: absolute;
+    position: fixed;
     background-color: #f1f1f1;
     min-width: 160px;
     overflow: auto;
@@ -42,8 +48,65 @@ left:590px;
     padding: 12px 16px;
     text-decoration: none;
     display: block;
+    z-index: 1;
 }
 
 .dropdown a:hover {background-color: #ddd;}
 
 .show {display: block;}
+
+.PhotoLib{display:none;}
+
+.Gallery-Slides{
+  position: absolute;
+  left:20px;
+  top:250px;
+
+}
+
+.Gallery-Header{
+  position: absolute;
+  left:995px;
+  top: 100px;
+  color: #EE8989;
+  font-size: 35px;
+}
+
+
+.Notes{
+  position: absolute;
+  left: 880px;
+  top:1550px;
+  margin: 0 auto;
+  font-size: 25px;
+}
+
+.Content{
+  position: absolute;
+  left: 670px;
+  margin: 0 auto;
+  top: 1630px;
+  font-size: 25px;
+  font-style: normal;
+  width: 700px;
+  height: 50px;
+  color:#EE8989;
+  padding: 3px;
+  text-align: center;
+  line-height: 150%;
+}
+
+
+
+*{
+  box-sizing:border-box;
+}
+.InfoMatic{
+  position: absolute;
+  left: 955px;
+  font-size: 30px;
+  position: absolute;
+  font-family: cursive,
+  color: black;
+  top: -10px;
+}

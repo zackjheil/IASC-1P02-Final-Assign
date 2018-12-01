@@ -1,1 +1,107 @@
-2
+.Wrapper{
+  background-color: #444444;
+  width: 1940px;
+  height: 1920px;
+}
+
+.TitleBar{
+  padding: 25px;
+  background-color: #F0DEDE;
+  width: 1930px;
+}
+
+.dropbtn {
+    background-color: #3498DB;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropbtn:hover, .dropbtn:focus {
+    background-color: #2980B9;
+}
+
+.dropdown {
+    position:fixed;
+    display: inline-block;
+    left: 720px;
+
+}
+
+.dropdown-content {
+    display: none;
+    position: fixed;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown a:hover {background-color: #ddd;}
+
+.show {display: block;}
+
+.ReviewText{
+  font-size: 30px;
+  color: #EE8989;
+}
+
+#button{
+  position: absolute;
+  top: 690px;
+  left: 135px;
+}
+*{
+  box-sizing:border-box;
+}
+.InfoMatic{
+  position: absolute;
+  left: 675px;
+  font-size: 30px;
+  position: absolute;
+  font-family: cursive,
+  color: black;
+  top: -10px;
+}
+.Thanks{
+  font-size: 25px;
+  line-height: 150%;
+  color: #EE8989;
+  position:absolute;
+  top: 1540px;
+}
+
+#txt{
+  color: white;
+  font-size: 175px;
+  position: relative;
+  top:500px;
+  left: 470px;
+
+}
+#TimeyWimey{
+  position: absolute;
+  top:899px;
+  left:500px;
+  z-index: 5;
+  color: black;
+  font-size: 45px;
+}
+
+.FooterBar{
+  padding: 25px;
+  background-color: #F0DEDE;
+  width: 1930px;
+  top: 1950px;
+  position: absolute;
+}
